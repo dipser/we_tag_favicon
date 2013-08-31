@@ -1,7 +1,7 @@
 we_tag_favicon
 ==============
 
-webEdition-tag for a favicon/shortcut icon
+[webEdition](http://www.webedition.org)-tag for a favicon/shortcut icon.
 
 
 Beschreibung:
