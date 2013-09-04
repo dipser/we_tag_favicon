@@ -74,8 +74,8 @@ function we_tag_favicon($attribs, $content) {
  	* @param bool $useGlobal check if attribute value is a php-variable and is found in $GLOBALS
  	* @return mixed returns the attributes value or default if not set
  	*/
-	$srcs = explode(',', we_getTagAttribute("src", $attribs));
-	$target = we_getTagAttribute("target", $attribs);
+	$srcs = explode(',', weTag_getAttribute("src", $attribs));
+	$target = weTag_getAttribute("target", $attribs);
 	$watch = weTag_getAttribute("watch", $attribs, false, true); // default: false
 	$forceUpdate = weTag_getAttribute("forceUpdate", $attribs, false, true); // default: false
 	$only = weTag_getAttribute("only", $attribs); // Possibility: href
